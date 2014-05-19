@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+body {
+	background-image: url('../img/home-page/Wooden_BG.jpg');
+	/*background-color: #E6D2A4;*/
+}
+.container {
+	min-width: 1047px;
+	background-image: url('../img/home-page/home-page-no-bg.png');
+	background-size: 1047px 768px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 768px;
+}
+.img-container {
+	text-align: center;
+}
+.bg {
+	height: 768px;
+}
+.link-container {
+	text-align: center;
+	min-width: 1047px;
+	position: relative;
+	top: 250px; /* 522 px */
+	margin: 0 auto;
+}
+.home-link {
+	display: inline;
+}
+.home-link a {
+	text-decoration: none;
+	font-family: lucida console;
+	margin: 0 1.75em;
+	color: #443206; /* brown */
+}
