@@ -8,6 +8,20 @@
 body {
 	background-image: url('../img/Wooden_BG.jpg');
 }
+.slider {
+	z-index: -1;
+	width: 689px;
+	height: 454px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	top: 272px;
+}
+.slider img {
+	width: 689px;
+	height: 454px;
+	display: none;
+}
 .container {
 	min-width: 1047px;
 	background-image: url('../img/home-page/home-page-no-bg.png');
@@ -33,7 +47,7 @@ body {
 	position: relative;
 }
 .home-link a:hover {
-	color: orange;
+	color: #E8A427;
 }
 .home-link li {
 	min-width: 180px;
