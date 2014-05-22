@@ -6,8 +6,7 @@
   -ms-box-sizing: border-box;
 }
 body {
-	background-image: url('../img/home-page/Wooden_BG.jpg');
-	/*background-color: #E6D2A4;*/
+	background-image: url('../img/Wooden_BG.jpg');
 }
 .container {
 	min-width: 1047px;
@@ -25,17 +24,40 @@ body {
 }
 .link-container {
 	text-align: center;
-	min-width: 1047px;
 	position: relative;
-	top: 250px; /* 522 px */
+	top: 250px;
 	margin: 0 auto;
 }
 .home-link {
-	display: inline;
+	display: inline-table;
+	position: relative;
+}
+.home-link a:hover {
+	color: orange;
+}
+.home-link li {
+	min-width: 180px;
+	min-height: 24px;
 }
 .home-link a {
 	text-decoration: none;
 	font-family: lucida console;
 	margin: 0 1.75em;
 	color: #443206; /* brown */
+}
+.links ul {
+	text-align: left;
+	display: none;
+	position: absolute;
+	top: 100%;
+	background: #EBEBEB;
+}
+.links ul li a {
+	font-family: garamond;
+}
+.links ul a {
+	font-size: 15px;
+}
+.links li:hover > ul {
+	display: block;
 }
