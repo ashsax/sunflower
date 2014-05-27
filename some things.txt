@@ -1,0 +1,12 @@
+- lay out all the images and text
+- dropdown menu
+- javascript for slideshow with a randomized starting image
+- optimize website for search engines
+- make sure it’s compatible with different browsers
+- maybe make a facebook page
+
+username: sunflower
+password: i2M]maTBNnur
+
+THINGS TO REMEMBER:
+1. FORBIDDEN 403 ERROR - CHANGE PERMISSIONS OF FOLDER (sudo chmod -R 0755 folder)
