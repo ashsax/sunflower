@@ -1,4 +1,4 @@
-function Slider() {
+$(document).ready(function Slider() {
 				var numImages = $(".slider img").size();
 				var start = 1 + Math.round((numImages - 1)*Math.random());
 				$(".slider #" + start).show("fade", 250);
@@ -16,4 +16,4 @@ function Slider() {
 						count++;
 					}
 				}, 3000);
-			}
+			});
