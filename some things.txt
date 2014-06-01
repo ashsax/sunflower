@@ -4,6 +4,11 @@
 - optimize website for search engines
 - make sure it’s compatible with different browsers
 - maybe make a facebook page
+- RESIZE PAGE
+	-Santa Monica (150%)
+	-A Reggio Inspired… (150%)
+	-Links (fill out nav bar)
+	-Slideshow (same width as nav bar)
 
 username: sunflower
 password: i2M]maTBNnur

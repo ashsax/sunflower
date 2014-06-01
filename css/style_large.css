@@ -10,8 +10,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
-	min-width: 1600px;
-	max-height: 900px;
+	min-width: 1548px;
+	max-height: 1124px;
 	height: 100%;
 }
 .slider {
@@ -21,7 +21,7 @@ body {
 	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
-	top: 350px;
+	top: 450px;
 }
 .slider img {
 	width: 800px;
@@ -29,12 +29,12 @@ body {
 	display: none;
 }
 .container {
-	min-width: 1600px;
-	background-image: url('../img/home-page/home-page-no-bg-with-shadows-large.png');
+	min-width: 1548px;
+	background-image: url('../img/home-page/home-page-large.png');
 	background-size: auto 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 900px;
+	min-height: 1124px;
 }
 .img-container {
 	text-align: center;
@@ -42,7 +42,7 @@ body {
 .link-container {
 	text-align: center;
 	position: relative;
-	top: 293px;
+	top: 363px;
 	margin: 0 auto;
 }
 .home-link {
@@ -60,7 +60,7 @@ body {
 }
 .links li a {
 	height: 2em;
-	font-size: 22px;
+	font-size: 30px;
 }
 .links ul {
 	text-align: left;
@@ -68,7 +68,7 @@ body {
 	position: absolute;
 	width: auto;
 	top: 100%;
-	left: 1.75em;
+	left: 2.75em;
 	background: #EBEBEB;
 }
 .links ul li {
@@ -83,7 +83,7 @@ body {
 	display: block;
 	height: auto;
 	width: auto;
-	font-size: 18.25px;
+	font-size: 22px;
 }
 .links li:hover > ul {
 	display: block;
