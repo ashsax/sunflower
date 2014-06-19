@@ -1,0 +1,39 @@
+a {
+	text-decoration: none;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul li ul li {
+	background: yellow;
+}
+nav ul {
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+	background: #EBEBEB;
+}
+nav ul li a {
+	display: block;
+	padding: 25px 40px;
+	color: #757575;
+}
+nav ul ul li {
+	float: none;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+}
