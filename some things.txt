@@ -15,3 +15,5 @@ password: i2M]maTBNnur
 
 THINGS TO REMEMBER:
 1. FORBIDDEN 403 ERROR - CHANGE PERMISSIONS OF FOLDER (sudo chmod -R 0755 folder)
+
+2. EMPTY YOUR CACHE - sometimes new images/html won’t display in the browser because it uses old cached data
